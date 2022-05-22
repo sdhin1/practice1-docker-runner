@@ -5,7 +5,7 @@ pipeline {
 		stage('Pull Latest Image') {
             steps {
                 //sh for mac				
-                bat "docker pull sdhingra13/practice1"
+                bat "docker pull sdhingra13/practice1-docker"
             }
         }
         stage('Start Grid') {
